@@ -24,20 +24,16 @@ $brand-language:  #4d4d78;
     margin-top: -20px;
   }
 
-  .saori-logo{
+  .saori-log{
     display: block;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
     margin: auto;
-    border: 2px solid white;
     img {
       max-width: 100%;
     }
   }
 
   .glyph-ig{
-    display: block;
+    display: flex;
     width: 20px;
     height: 20px;
     margin: auto;
