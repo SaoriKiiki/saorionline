@@ -13,10 +13,10 @@ $brand-language:  #4d4d78;
     }
   }
 
-  p .text-left {
+  h3 .text-left {
     color: #323235;
     max-width: 75%;
-    margin: 1em auto 2em;
+    margin: 4em auto 4em;
 
   }
 
@@ -33,7 +33,7 @@ $brand-language:  #4d4d78;
   }
 
   .glyph-ig{
-    display: flex;
+    display: inline;
     width: 20px;
     height: 20px;
     margin: auto;
