@@ -1,9 +1,9 @@
-$brand-primary: #532F8C;
-$brand-language: #ffffff;
+$brand-primary: #D3D3D3;
+$brand-language:  #808080;
 
 .jumbotron {
   background: $brand-primary;
-  color: white;
+  color: #2F4F4F;
   padding-bottom: 80px;
 
   .btn-primary {
@@ -24,7 +24,7 @@ $brand-language: #ffffff;
     margin-top: -20px;
   }
 
-  .glyph-ig {
+  .saori-logo{
     display: block;
     background: $brand-language;
     border-radius: 50%;
@@ -37,6 +37,5 @@ $brand-language: #ffffff;
       max-width: 100%;
     }
   }
-
 }
 
