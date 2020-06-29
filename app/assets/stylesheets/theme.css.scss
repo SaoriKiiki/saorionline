@@ -1,9 +1,8 @@
-$brand-primary: #D3D3D3;
-$brand-language:  #2d005f;
+$brand-primary: #2d005f;
+$brand-language:  #4d4d78;
 
 .jumbotron {
-  background: $brand-primary;
-  color: #2F4F4F;
+  background: lighten($brand-primary, 70%);
   padding-bottom: 80px;
 
   .btn-primary {
@@ -14,10 +13,11 @@ $brand-language:  #2d005f;
     }
   }
 
-  p {
-    color: $brand-primary;
+  p .text-left {
+    color: #323235;
     max-width: 75%;
     margin: 1em auto 2em;
+
   }
 
   .navbar + & {
@@ -27,7 +27,6 @@ $brand-language:  #2d005f;
   .saori-logo{
     display: block;
     background: $brand-language;
-    border-radius: 50%;
     overflow: hidden;
     width: 100px;
     height: 100px;
