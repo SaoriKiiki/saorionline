@@ -17,7 +17,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc',          group: :doc
-gem 'less-rails', '~> 2.7.0'
+
 
 gem 'spring',        group: :development
 
