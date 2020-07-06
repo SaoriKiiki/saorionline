@@ -13,8 +13,6 @@ gem 'coffee-rails'
 gem 'bootsnap', require: false
 gem 'listen'
 
-gem 'less-rails-bootstrap', '~> 3.3', '>= 3.3.5.0'
-
 gem 'jquery-rails'
 # Turbolinks makes sfollowing links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
