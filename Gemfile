@@ -5,6 +5,7 @@ gem 'rails', '~> 5.2.0'
 gem 'pg', '~> 0.18'
 gem 'sass-rails'
 gem 'uglifier'
+
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -12,12 +13,13 @@ gem 'coffee-rails'
 gem 'bootsnap', require: false
 gem 'listen'
 
+gem 'less-rails-bootstrap', '~> 3.3', '>= 3.3.5.0'
+
 gem 'jquery-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+# Turbolinks makes sfollowing links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc',          group: :doc
-
 
 gem 'spring',        group: :development
 
