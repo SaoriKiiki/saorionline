@@ -1,13 +1,9 @@
 source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.8'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
-# Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
-# Use SCSS for stylesheets
 gem 'sass-rails'
-# Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
@@ -16,16 +12,13 @@ gem 'coffee-rails'
 gem 'bootsnap', require: false
 gem 'listen'
 
-# Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
-# bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc',          group: :doc
+gem 'less-rails', '~> 2.7.0'
 
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
@@ -38,4 +31,3 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
